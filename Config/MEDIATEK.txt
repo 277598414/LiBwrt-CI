@@ -1,5 +1,12 @@
 #设备平台
+# CONFIG_TARGET_ramips=y
+# CONFIG_TARGET_ramips_mt7620=y
+# CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 #设备列表
+CONFIG_TARGET_DEVICE_ramips_mt7620_DEVICE_hiwifi_hc5761=y
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mi-router-3-pro=y
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mir3p=y
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_jcg_q20=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cmcc_rax3000m=y
