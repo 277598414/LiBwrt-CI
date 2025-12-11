@@ -77,7 +77,7 @@ jobs:
           sudo -E apt -yqq install dos2unix python3-netifaces libfuse-dev
           sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh)'
           sudo -E systemctl daemon-reload
-          sudo -E timedatectl set-timezone "Asia/Shanghai"
+          sudo -E timedatectl set-timezone "Asia/Hong_Kong"
 
           sudo mkdir -p /mnt/build_wrt
           sudo chown $USER:$USER /mnt/build_wrt
