@@ -34,7 +34,7 @@ jobs:
       matrix:
         CONFIG: [IPQ60XX-WIFI-YES, IPQ60XX-WIFI-NO]
         SOURCE: [277598414/openwrt-6.x]
-        BRANCH: [25.12-nss]
+        BRANCH: [k6.12-nss]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
