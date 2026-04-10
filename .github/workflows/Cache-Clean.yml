@@ -4,6 +4,8 @@
 name: Cache-Clean
 
 on:
+  #自动清理：每周一早上4点
+on:
   schedule:
     - cron: 0 20 * * 0
   workflow_dispatch:
