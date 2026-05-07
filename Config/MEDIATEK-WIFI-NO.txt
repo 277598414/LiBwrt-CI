@@ -1,0 +1,10 @@
+#设备平台
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+#设备列表
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mi-router-3-pro=y
+#WIFI驱动
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20l="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20m="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_supergateway_s20p="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
+CONFIG_TARGET_DEVICE_PACKAGES_mediatek_filogic_DEVICE_zyxel_ex5700-telenor="-kmod-mt76 -kmod-mt76-connac -kmod-mt76-core -kmod-mt7915e -kmod-mt7915-firmware -kmod-mt7916-firmware -kmod-mt7986-firmware -mt7986-wo-firmware"
