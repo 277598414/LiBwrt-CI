@@ -4,7 +4,13 @@ CONFIG_TARGET_ramips_mt7621=y
 #设备列表
 CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mi-router-3-pro=y
 #WIFI驱动
-CONFIG_MODULE_DEFAULT_kmod-mt7615-firmware=n
-CONFIG_PACKAGE_kmod-mt7615-common=n
-CONFIG_PACKAGE_kmod-mt7615-firmware=n
-CONFIG_PACKAGE_kmod-mt7615e=n
+CONFIG_PACKAGE_kmod-cfg80211=m
+CONFIG_PACKAGE_kmod-mac80211=m
+CONFIG_PACKAGE_kmod-mt76-connac=m
+CONFIG_PACKAGE_kmod-mt76-core=m
+CONFIG_PACKAGE_kmod-mt7615-common=m
+CONFIG_PACKAGE_kmod-mt7615-firmware=m
+CONFIG_PACKAGE_kmod-mt7615e=m
+CONFIG_PACKAGE_kmod-mt7915-firmware=m
+CONFIG_PACKAGE_kmod-mt7921e=m
+CONFIG_PACKAGE_wireless-regdb=m
