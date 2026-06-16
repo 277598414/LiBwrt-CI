@@ -67,5 +67,5 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 	echo "CONFIG_NSS_FIRMWARE_VERSION_11_4=y" >> ./.config
 	echo "CONFIG_NSS_FIRMWARE_VERSION_12_5=n" >> ./.config
 	#其他调整
-	echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
+	#echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
 fi
