@@ -177,7 +177,7 @@ jobs:
           make defconfig -j$(nproc) && make clean -j$(nproc)
 
       - name: Download Packages
-        if: ${{ !inputs.WRT_TEST }}
+        if: env.WRT_TEST != 'true'
         run: |
           cd ./wrt/
 
